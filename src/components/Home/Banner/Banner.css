@@ -1,0 +1,30 @@
+.banner {
+    background: url('../../../images/bannerbackground.png') no-repeat center center / cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .text-container {
+    max-width: 600px;
+}
+.banner .search-btn {
+    border: none;
+    outline: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px !important;
+    position: absolute !important;
+    right: 0;
+    z-index: 10;
+}
+.banner input {
+    border: none;
+    outline: none;
+    border-radius: 50px !important;
+    z-index: 2;
+}
+.banner input:focus {
+    outline: none !important;
+    z-index: 2 !important;
+}
