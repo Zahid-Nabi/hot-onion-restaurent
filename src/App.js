@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home/Home';
+import Login from './components/Login/Login';
 import Header from './components/Shared/Header/Header';
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route path='/home'>
             <Home></Home>
+          </Route>
+          <Route path='/login'>
+            <Login></Login>
           </Route>
 
 
